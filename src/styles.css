@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: rgb(130, 186, 255);
+  border: 3px solid blue;
+  border-radius: 10px;
+  margin: 1rem;
+  height: 19rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.card h1 {
+  color: white;
+  text-align: center;
+  margin: 1rem;
+  font-size: 40px;
+}
+
+p {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 19px;
+  color: yellow;
+}
+
+p:hover {
+  color: purple;
+}
+
+.next-button {
+  padding: 0.4rem;
+  border-radius: 25px;
+  background-color: yellow;
+  color: black;
+}
+
+.next-button:hover {
+  color: green;
+}
+
+.reset-button {
+  padding: 0.4rem;
+  border-radius: 25px;
+  background-color: red;
+  color: white;
+}
+
+.reset-button:hover {
+  color: black;
+}
